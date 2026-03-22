@@ -1,0 +1,21 @@
+{
+  "browser_type": "chromium",
+  "chrome_path": "C:/path/to/chromium/chrome.exe",
+  "instances": 3,
+  "profiles_root": "./profiles",
+  "profile_mode": "auto_detect",
+  "cycle_existing_profiles": true,
+  "extension_folders": [],
+  "use_proxy": false,
+  "proxy_server": "",
+  "window_width": 1280,
+  "window_height": 800,
+  "cleanup_cache_on_start": true,
+  "relaunch_delay_seconds": 2,
+  "check_interval_seconds": 2,
+  "extra_chrome_flags": [
+    "--disable-notifications",
+    "--mute-audio"
+  ],
+  "log_file": "./logs/chrome_profile_manager.log"
+}
